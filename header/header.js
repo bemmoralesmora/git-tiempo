@@ -1,8 +1,8 @@
-let dom_header = document.querySelector(".header")
+let header_DOM = document.querySelector(".header")
 
-dom_header.innerHTML = `
-<div class="informacion">
-        <h1>💀BRIAN MORALES💀</h1>
-        <h1>💀EL MEJOR PROGRAMADOR💀</h1>
-        </div>
+header_DOM.innerHTML=`
+
+<h1 class="titulo">Comandos <span class="git">GIT</span></h1>
+<a href="https://github.com/bemmoralesmora/git-tiempo" class="btn-github">github</a>
+
 `;
