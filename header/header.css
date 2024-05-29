@@ -1,7 +1,25 @@
-.header h1 {
-    color: darkblue;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
 }
 
-.header {
+.titulo{
+}
 
+.git{
+    background-color: orange;
+    border-radius: 100%;
+    padding: 0.8rem 0.3rem;
+}
+
+.btn-github{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
 }
